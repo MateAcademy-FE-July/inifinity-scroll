@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.list {
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+  
+.list__item {
+  flex: 0 0 20%;
+  background: tomato;
+  text-align: center;
+  color: #333;
+  margin: 2.5%;
+  transform: scale(1);
+  transition: all .3s;
+}
+
+.list__item.loading {
+  transform: scale(0);
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  width: 100%;
+  top:0;
+}
+
+.pagination {
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.btn { 
+  display: block;
+  font-size: 30px;
+  margin: 0 auto;
+  padding: 20px;
+}

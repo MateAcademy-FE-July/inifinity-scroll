@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <h1>Cities</h1>
+      <div class="pagination" hidden>
+        <span class="current-page">0</span>/
+        <span class="limit-page">20</span>
+      </div>
+    </header>
+    <div class="list">
+    </div>
+    <button class="btn" id="load" type="button">Load More</button>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="jquery.debounce-1.0.5.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
